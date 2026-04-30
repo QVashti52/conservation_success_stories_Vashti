@@ -6,6 +6,25 @@
 
 /* variables needed from Bootstrap */ 
 
+/* Core brand color */
+$primary: #3a5a40; // deep forest green
+
+/* Full theme system */
+$theme-colors: (
+  "primary": #3a5a40,   // forest canopy (main identity)
+  "secondary": #a3b18a, // sage (soft UI elements, secondary buttons)
+  "success": #588157,   // healthy vegetation (positive states)
+  "info": #7f9c8b,      // muted eucalyptus (informational UI)
+  "warning": #dad7cd,   // dry grass / parchment (alerts, highlights)
+  "danger": #bc4749,    // muted red clay (errors, but not harsh)
+  "light": #f0f4f1,     // off-white with green tint (backgrounds)
+  "dark": #344e41       // deep evergreen (headers, footers)
+);
+
+/* Link styling */
+$link-color: #3a5a40;
+$link-hover-color: darken($link-color, 15%);
+
 $white:    #fff !default;
 $black:    #000 !default;
 $primary:       #0d6efd !default;
